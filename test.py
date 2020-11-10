@@ -6,13 +6,13 @@ Created on Tue Nov 10 19:13:11 2020
 """
 
 from Aufgabe1 import is_prime
-#from Aufgabe1 import scalar
+from Aufgabe1 import scalar
 
-#def test():
-#    assert scalar([1,2,3],[4,5,6]) == 32
+def test():
+    return scalar([1,2,3],[4,5,6]) == 32
 
 
 def test1():
-    assert is_prime(14) == print("14 ist keine Primzahl")
+    assert is_prime(14) == print("14 ist keine Primzahl.")
 
  
