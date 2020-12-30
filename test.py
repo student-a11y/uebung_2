@@ -9,10 +9,10 @@ from Aufgabe1 import is_prime
 from Aufgabe1 import scalar
 
 def test():
-    return scalar([1,2,3],[4,5,6]) == 32
+    assert scalar([1,2,3],[4,5,6]) == 31
 
 
 def test1():
-    assert is_prime(14) == print("14 ist keine Primzahl.")
+    assert is_prime(14) == "14 ist keine Primzahl."
 
  
