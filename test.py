@@ -9,7 +9,7 @@ from Aufgabe1 import is_prime
 from Aufgabe1 import scalar
 
 def test():
-    return scalar([1,2,3],[4,5,6]) == 31
+    assert scalar([1,2,3],[4,5,6]) == 31
 
 
 def test1():
